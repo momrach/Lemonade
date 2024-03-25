@@ -70,7 +70,7 @@ fun ScreenContent(modifier: Modifier = Modifier) {
     //En funcion del setp obtenemos un recurso de string a utilizar
     val stringResource = when(step){
         0 -> R.string.lemon_tree
-        0 -> R.string.lemon
+        1 -> R.string.lemon
         2 -> R.string.glass_of_lemonade
         else -> R.string.empty_glass
     }
